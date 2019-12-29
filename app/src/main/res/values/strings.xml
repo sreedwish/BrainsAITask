@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">BrainsAITask</string>
+    <string name="lbl_continue_to_care">Continue to Care Partner</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="btn_register">Create an Account</string>
+
+    <string name="msg_enter_valid_email">Enter valid email</string>
+    <string name="msg_enter_password">Enter password</string>
 </resources>
