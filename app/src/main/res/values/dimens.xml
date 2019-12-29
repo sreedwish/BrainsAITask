@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="img_logo_size">90dp</dimen>
+    <dimen name="medium_spacing">24dp</dimen>
+    <dimen name="img_medium">56dp</dimen>
+    <dimen name="small_spacing">12dp</dimen>
+    <dimen name="img_social_icon">32dp</dimen>
+    <dimen name="large_spacing">40dp</dimen>
+</resources>
