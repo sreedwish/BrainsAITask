@@ -7,4 +7,5 @@
     <color name="labl_color">#000</color>
     <color name="white">#fff</color>
     <color name="grey">#AAAAAA</color>
+    <color name="grey_text">#747474</color>
 </resources>
