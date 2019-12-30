@@ -1,12 +1,21 @@
 package com.sreedwish.brainsaitask.models;
 
-public class beanItem {
+public class BeanItem {
 
     String title;
     boolean show_progress = false;
     boolean selection_who = false;
     boolean selected = false;
     int progress = 30;
+
+
+    public BeanItem(String title, boolean show_progress, boolean selection_who, boolean selected, int progress) {
+        this.title = title;
+        this.show_progress = show_progress;
+        this.selection_who = selection_who;
+        this.selected = selected;
+        this.progress = progress;
+    }
 
     public boolean isSelected() {
         return selected;
