@@ -7,6 +7,8 @@
     <string name="lbl_forgot_password">Forgot password?</string>
     <string name="btn_register">Create an Account</string>
 
+    <string name="lbl_complete_setup">Complete the setup</string>
+
     <string name="msg_enter_valid_email">Enter valid email</string>
     <string name="msg_enter_password">Enter password</string>
 

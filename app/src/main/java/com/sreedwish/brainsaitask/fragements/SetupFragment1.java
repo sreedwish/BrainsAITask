@@ -96,7 +96,6 @@ public class SetupFragment1 extends Fragment {
 
                 mViewModel.setLiveDataSetup1(itemList);
 
-                adapter.notifyDataSetChanged();
 
             }
         });
