@@ -1,4 +1,4 @@
-package com.sreedwish.brainsaitask.activities.ui.setup;
+package com.sreedwish.brainsaitask.fragements;
 
 import androidx.lifecycle.ViewModelProviders;
 
@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.sreedwish.brainsaitask.R;
+import com.sreedwish.brainsaitask.viewmodel.SetupViewModel;
 
 public class SetupFragment extends Fragment {
 

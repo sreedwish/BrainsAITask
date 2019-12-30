@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.sreedwish.brainsaitask.R;
-import com.sreedwish.brainsaitask.activities.ui.setup.SetupFragment;
+import com.sreedwish.brainsaitask.fragements.SetupFragment;
 
 public class Setup extends AppCompatActivity {
 
