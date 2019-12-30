@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.sreedwish.brainsaitask.R;
-import com.sreedwish.brainsaitask.activities.ui.setup.SetupFragment;
+import com.sreedwish.brainsaitask.fragements.SetupFragment1;
 
 public class Setup extends AppCompatActivity {
 
@@ -15,7 +15,7 @@ public class Setup extends AppCompatActivity {
         setContentView(R.layout.setup_activity);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.container, SetupFragment.newInstance())
+                    .replace(R.id.container, SetupFragment1.newInstance())
                     .commitNow();
         }
     }

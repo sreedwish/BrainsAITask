@@ -7,6 +7,15 @@
     <string name="lbl_forgot_password">Forgot password?</string>
     <string name="btn_register">Create an Account</string>
 
+    <string name="lbl_complete_setup">Complete the setup</string>
+
     <string name="msg_enter_valid_email">Enter valid email</string>
     <string name="msg_enter_password">Enter password</string>
+
+    <string name="msg_select_who_you_are">Select who you are</string>
+    <string name="msg_when_is_your_due_date">When is your due date</string>
+    <string name="msg_how_are_you_feeling_generally">How are you feeling generally?</string>
+    <string name="msg_rate_yor_problem">On a scale of 0 to 10, how bad do you think your problem is?</string>
+    <string name="msg_things_arent_too_great">Things aren\'t too great, and you can\'t do much about it</string>
+
 </resources>

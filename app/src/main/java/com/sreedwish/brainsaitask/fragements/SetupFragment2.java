@@ -1,25 +1,24 @@
-package com.sreedwish.brainsaitask.activities.ui.setup;
-
-import androidx.lifecycle.ViewModelProviders;
+package com.sreedwish.brainsaitask.fragements;
 
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.sreedwish.brainsaitask.R;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProviders;
 
-public class SetupFragment extends Fragment {
+import com.sreedwish.brainsaitask.R;
+import com.sreedwish.brainsaitask.viewmodel.SetupViewModel;
+
+public class SetupFragment2 extends Fragment {
 
     private SetupViewModel mViewModel;
 
-    public static SetupFragment newInstance() {
-        return new SetupFragment();
+    public static SetupFragment2 newInstance() {
+        return new SetupFragment2();
     }
 
     @Nullable
@@ -35,5 +34,7 @@ public class SetupFragment extends Fragment {
         mViewModel = ViewModelProviders.of(this).get(SetupViewModel.class);
         // TODO: Use the ViewModel
     }
+
+
 
 }
